@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="styles.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script type="text/javascript" src="sq-foot.js"></script>
+  </head>
+  <body>
+
+<title>FLEXO</title>
+</head>
+<body>
+
+    <div class="contBody">
+        <header class="headerGrid">
+            <div class="navBar text-focus-in">
+                <h1 class="logo"><a href="./index.html">FLEXO <i class="fa-solid fa-building"></i></a></h1>
+                <nav>
+                    <ul>
+                        <li><a href="./index.html"><i class="fa-solid fa-helmet-safety"></i> Inicio</a></li>
+                        <li><a href="./pages/oficinas.html"><i class="fa-solid fa-map-location-dot"></i> Oficinas</a></li>
+                        <li><a href="./pages/proyectos.html"><i class="fa-solid fa-trowel-bricks"></i> Proyectos</a></li>
+                        <li><a href="./pages/sobrenosotros.html"><i class="fa-solid fa-users-between-lines"></i> Sobre nosotros</a></li>
+                        <li><a href="./pages/contacto.html"><i class="fa-solid fa-envelope"></i> Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+    <div class="container">
+      <h2 id="sqfoot-result" class="f_100"></h2>
+      <h3 id="price-result" class="f_100"></h3>
+      <form id="sqfoot-form" novalidate="">
+        <div id="width-container" class="field f_100">
+          <label for="width">Ancho del Terreno</label> <input type="text" name="width" id="width" value="10" required="required" pattern="\d+.?\d+">
+        </div>
+        <div id="height-container" class="field f_100">
+          <label for="height">Largo del Terreno</label> <input type="text" name="height" id="height" value="10" required="required" pattern="\d+.?\d+">
+        </div>
+        <div id="price-container" class="field f_100">
+          <label for="height">Precio por M2</label> <input type="text" name="price" id="price" value="10" required="required" pattern="\d+.?\d+">
+        </div>
+        <div id="form-submit" class="field f_100 clearfix submit">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
